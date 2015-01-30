@@ -1,10 +1,11 @@
 package com.google.gwt.sample.stockwatcher.client;
 
 public class StockPrice {
-<<<spencer>	
 	private String symbol;
 	private double price;
 	private double change;
+<<<<Spencer>
+=====
 
 	public StockPrice() {
 	}
