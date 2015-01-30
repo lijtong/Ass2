@@ -82,7 +82,9 @@ public class StockWatcher implements EntryPoint {
 		signInLink.setHref(loginInfo.getLoginUrl());
 		loginPanel.add(loginLabel);
 		loginPanel.add(signInLink);
+		//wtf is this
 		RootPanel.get("stockList").add(loginPanel);
+		//asdf what is this
 	}
 
 	private void loadStockWatcher() {
