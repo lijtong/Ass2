@@ -1,5 +1,6 @@
 package com.google.gwt.sample.stockwatcher.client;
 
+// le merge conflict comment weooo abc hugo
 
 import java.util.ArrayList;
 import java.util.Date;
