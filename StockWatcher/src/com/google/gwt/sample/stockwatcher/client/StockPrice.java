@@ -5,7 +5,7 @@ public class StockPrice {
 	private double price;
 	private double change;
 <<<<Spencer>
-=====
+=======
 
 	public StockPrice() {
 	}
