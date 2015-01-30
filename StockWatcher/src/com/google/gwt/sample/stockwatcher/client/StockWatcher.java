@@ -1,8 +1,10 @@
 package com.google.gwt.sample.stockwatcher.client;
 
 // le merge conflict comment weooo abc hugo
+
 import java.util.ArrayList;
-//lalalalalala
+import java.util.Date;
+
 import com.google.gwt.core.client.EntryPoint;
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -73,7 +75,9 @@ public class StockWatcher implements EntryPoint {
 		signInLink.setHref(loginInfo.getLoginUrl());
 		loginPanel.add(loginLabel);
 		loginPanel.add(signInLink);
+		//wtf is this
 		RootPanel.get("stockList").add(loginPanel);
+		//asdf what is this
 	}
 
 	private void loadStockWatcher() {
