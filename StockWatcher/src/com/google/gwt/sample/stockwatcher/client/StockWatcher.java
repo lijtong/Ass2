@@ -36,8 +36,9 @@ public class StockWatcher implements EntryPoint {
 	private TextBox newSymbolTextBox = new TextBox();
 	private Button addStockButton = new Button("Add");
 	private Label lastUpdatedLabel = new Label();
+	//this shouldnt be here
 	private ArrayList<String> stocks = new ArrayList<String>();
-
+	//conflict creation?
 	private LoginInfo loginInfo = null;
 	private VerticalPanel loginPanel = new VerticalPanel();
 	private Label loginLabel = new Label(
