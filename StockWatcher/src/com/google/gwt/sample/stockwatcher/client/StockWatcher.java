@@ -60,6 +60,9 @@ public class StockWatcher implements EntryPoint {
 			public void onFailure(Throwable error) {
 				handleError(error);
 			}
+			
+			// abc abc abc skfjskejflaksd
+			//wowowowo
 
 			public void onSuccess(LoginInfo result) {
 				loginInfo = result;
@@ -69,6 +72,8 @@ public class StockWatcher implements EntryPoint {
 					loadLogin();
 				}
 			}
+			// asjtekajfdskfjaldsf
+			// abc acbabacbacb
 		});
 	}
 
